@@ -1,340 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"><script src="https://kit.fontawesome.com/c4f48fc95d.js" crossorigin="anonymous"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>About me</title>
-        <link rel="stylesheet" href="about/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="about/assets/css/plugins/owl.carousel.min.css">
-        <link rel="stylesheet" href="about/assets/font/flaticon.css">
-        <link rel="stylesheet" href="about/assets/css/style.css">
-    </head>
-    <!-- =================Body Started==================== -->
-    <body>
-        <!-- =================================********================================= -->
-        <div id="show_menuitems" class="my-menu">
-            <div class="menu-box">
-                <span>
-                    <i onclick="hide_menu()" class="flaticon-cancel"></i>
-                </span>
-                <ul>
-                    <li><a onclick="hide_menu()" href="index.html">Home</a></li>
-                    <li><a onclick="hide_menu()" href="https://github.com/mohammedyazid?tab=repositories">Projects</a></li>
-                    <li><a onclick="hide_menu()" href="https://www.instagram.com/yazi._.d/?hl=fr">Contact us</a></li>
-                </ul>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            background-color: #130f40;
+            background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+            height: 100vh;
+        }
+        header ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        header ul li{
+            margin-right: 30px;
+        }
+        header ul li a{
+            padding: 6px 15px;
+        }
+        header ul li a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        header{
+            position: absolute;
+            width: 100%;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+        }
+        header .logo{
+            text-transform: uppercase;
+        }
+        .main{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main img{
+            position:absolute;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+        #moon{
+            mix-blend-mode: screen;
+        }
+        .text{
+            color: white;
+            font-size: 30px;
+        }
+        .para{
+            color: white;
+            font-size: 20px;
+    
+        }
+    </style>
+    <header>
+        <h2><a href="#" class="logo">bruh!</a></h2>
+        <ul>
+            <li><a href="Snake.html">Snake Game</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </header>
+</head>
+<body>
+    <section class="main">
+        <img src="img/stars.webp">
+        <img src="img/moon.webp">
+        
+        <div>
+            <h2 class="text">Who Am I?</h2>
+            <p class="para">I'm Mohammed Yazid Bentaib a 20yo computer science student at Tahri Mohamed University.</p>
+            <h2 class="text">About Website</h2>
+            <p class="para">This is my first website, so simple right? I know it's not fancy,i mean it's not that good but it's not that bad either please consider trying the snake game that i've made.</p>
         </div>
-            <!-- =================================********================================= -->
-            <section id="home">
-                <header>
-                    <div class="container">
-                        <div class="main-nav">
-                            <div class="logo">
-                              <h2>EASY  <span>P</span></h2>
-                            </div>
-                            <div class="social-media">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/garry.hatches/"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/yazi._.d/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <div onclick="show_menu()" class="my-toogle">
-                                <span><i class="flaticon-menu"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                <div class="container">
-                    <div class="row">
-                        <div class="my-wrapper">
-                            <div class="inter">
-                                <h6>Introduce</h6>
-                            </div>
-                            <div class="welcome-box">
-                                <h3><span></span></h3>
-                            </div>
-                            <div class="name-box">
-                                <h1>WELCOME TO EASY  <span>P</span></h1>
-                            </div>
-                            <div class="line"></div>
-                        </div>
-                        <div class="copy-right">
-                            <h6>© Yazid 2020</h6>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- =================================********================================= -->
-            <section id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="wrapper">
-                            <div class="left-wrapper">
-                                <div class="content">
-                                    <div class="title">
-                                        <h4>About Us</h4>
-                                        <h2>Easy<span> P</span>
-                                        Is</h2>
-                                        <p>A company that Provides various software services</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right-wrapper">
-                                <div class="content _yt_er_ol">
-                                    <div class="_re_uy_iu">
-                                        <div class="_ol_ew_xs">
-                                            <span>Experience</span>
-                                            <span>50%</span>
-                                        </div>
-                                        <div class="progress">
-                                            <div style="width: 50%;" class="progress-bar my-bars" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                    <div class="_re_uy_iu">
-                                        <div class="_ol_ew_xs">
-                                            <span>Professionality</span>
-                                            <span>Guaranteed</span>
-                                        </div>
-                                        <div class="progress">
-                                            <div style="width: 95%;" class="progress-bar my-bars" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                    <div class="_re_uy_iu">
-                                        <div class="_ol_ew_xs">
-                                            <span>Service Speed</span>
-                                            <span>Fast</span>
-                                        </div>
-                                        <div class="progress">
-                                            <div style="width: 98%;" class="progress-bar my-bars" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="inter">
-                                <h6>WHAT WE DO</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- =================================********================================= -->
-            <section id="resume">
-                <div class="container">
-                    <div class="row">
-                        <div class="my-wrapper">
-                            <div class="left-wrapper">
-                                <div class="content">
-                                    <div class="head">
-                                        <h2>Our workers</h2>
-                                    </div>
-                                    <div class="list-inner">
-                                        <ol>
-                                            <li>
-                                                <h4>Yazid</h4>
-                                                <h6>STUDYING MATHEMATICS & COMPUTER SCIENCE</h6>
-                                                <span>Sep 2019</span>
-                                                <p></p>
-                                            </li>
+        
 
-                                            <li>
-                                                <h4>+2 YEAR</h4>
-                                                <h6>STUDYING COMPUTER SCIENCE</h6>
-                                                <span>Sep 2020</span>
-
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right-wrapper">
-                                <div class="content">
-                                    <div class="head">
-                                        <h2>Experience</h2>
-                                    </div>
-                                    <div class="list-inner">
-                                        <ol>
-                                            <li>
-                                                <h4>Intermediate in C language</h4>
-                                              </li>
-                                              <li>  <h4>Advanced in HTML</h4>
-                                                <span></span>
-                                                <p></p>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="inter">
-                                <h6>RESUME</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- =================================********================================= -->
-            <section id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="my-wrapper">
-                            <div class="wrapper-box">
-                                <div class="content">
-                                    <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" id="free-template" data-toggle="tab" href="#free" role="tab" aria-controls="free" aria-selected="true">Web Designing</a>
-                                        </li>
-                                    </ul>
-
-                                    <div class="tab-content" id="myTabContent">
-                                        <!-- ------------***----------- -->
-                                        <div class="tab-pane fade show active" id="free" role="tabpanel" aria-labelledby="free-template">
-                                            <div class="content-list">
-                                                <ol>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/1.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="aboutyazid.html">About Yazid</a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/2.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/3.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/4.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/5.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/6.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/7.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="_ok-vd_zs">
-                                                            <figure>
-                                                                <img src="about/assets/images/abt/8.jpg">
-                                                                <div class="inner-content">
-                                                                    <a href="#"></a>
-                                                                </div>
-                                                            </figure>
-                                                        </div>
-                                                    </li>
-                                                </ol>
-                                            </div>
-                                        </div>
-
-                            <div class="inter">
-                                <h6>Portfolio</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- =================================********================================= -->
-            <section id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="heading">
-                                <h2>Get in Touch</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <form action="https://formspree.io/f/mzbypebb" method="POST" id="my-form">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <input class="form-control" name="Name" type="text" required="name" placeholder="Enter Your Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <input class="form-control" name="EMAIL" type="text" required="email" placeholder="Enter Your Email">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <input class="form-control" name="Subject" type="text" required="subject" placeholder="Subject (optional)">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea class="" cals="40" rows="10" name="Message" type="text" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="send">
-                                            <button type="send" class="btn btn-block btn-lg btn-primary">Send</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="inter">
-                                <h6>Contact</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- =================================********================================= -->
-
-        <!-- =================================********================================= -->
-        <script src="about/assets/js/jquery-3.2.1.min.js"></script>
-        <script src="about/assets/js/bootstrap.min.js"></script>
-        <script src="about/assets/js/script.js"></script>
-        <script src="about/assets/js/main.js"></script>
-    </body>
-    <!-- =================Body End==================== -->
+    </section>
+</body>
 </html>

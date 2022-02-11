@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body{
+            margin: 5px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+        }
+        canvas{
+            margin: 13px;
+            box-shadow: black 10px 10px 50px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px;
+        }
+        a{
+            text-decoration: none;
+            font: Verdana;
+            font-size: 30px;
+            color: white;
+            
+            
+        }
+        header ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header ul li{
+            margin: 0px 50px;
+        }
+        header ul li a{
+            padding: 6px 15px;
+            border-radius: 20px;
+        }
+        header ul li a:hover{
+            background-color: white;
+            color: black;
+            box-shadow: black 10px 10px 50px;
+        }
+        
+    </style>
+     <header><ul>
+        <li>
+            <a onclick="window.location.reload();"href="#">Play Again</a>
+        </li>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+    </ul></header>
+</head>
+<body>
+   
+    
+    
+    <canvas id="game" width="800" height="800"/>
+    <script src="snake.js"></script>
+    <ul>
+        <li>
+            <button onClick="window.location.reload();">PLay Again</button>
+        </li>
+    </ul>
+</body>
+
+</html>
